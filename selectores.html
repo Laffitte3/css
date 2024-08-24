@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1, h2{
+            color: blue;
+        }
+
+        /* Usar etiqueta padre */
+        ul li{
+            color: red;
+        }
+        /* Se sobreescribe el anterior porque los elem */
+        ul li{
+            color: blue;
+        }
+        /* Las clases se utilizan para aplicar estilos a multiples objetos */
+        .objeto{
+
+            color: blueviolet;
+        }
+        /*  */
+        #item{
+
+            color: red;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Encabezado</h1>
+    <h2>Hola Mundo</h2>
+    <h2 style="color: brown;">Prueba</h2>
+
+    <ul>
+        <li class="objeto">Pescado</li>
+        <li class="objeto">Pollo</li>
+        <li id="item">Arroz</li>
+        <li class="objeto" id="item">Papas</li>
+        
+    </ul>
+</body>
+</html>

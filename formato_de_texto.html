@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parrafo{
+
+            display: inline;
+            background-color: yellow;
+            /* Cmbian tamano de fuente */
+            font-size: 14px;
+            /* cambiar posicion del texto */
+            /* text-align: left ; */
+            /* text-align: right; */
+            /* text-align: center; */
+            /* text-align: justify; */
+            /* con display logramos que las propiedades se apliquen a nivel de linea en lugar de bloque
+            pero ya la propiedad text align no funciona, para eso creamos un div y lo modificamos a el*/
+            border: 2px solid red;
+            
+        }
+
+        div{
+            text-align: right;
+            border: 2px solid black;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+    <p class="parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, non!</p>
+    </div>
+    
+</body>
+</html>

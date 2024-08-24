@@ -1,0 +1,17 @@
+Padding:
+El padding es un espacio de relleno que se crea alrededor del contenido de un elemento dentro de los bordes definidos.
+Sirve para dar formato y diseño a una página web, permitiendo ajustar la distancia entre el contenido y los bordes del elemento
+
+Relleno (Padding):
+El relleno es un espacio transparente alrededor del contenido.
+Se define con las propiedades padding-top, padding-right, padding-bottom y padding-left.
+Añade espacio entre el contenido y el borde.
+
+Border:
+El border es el borde visible alrededor de un elemento.
+Puedes definir su estilo, grosor y color.
+
+Margen:
+El margen es el espacio transparente fuera del borde.
+Se define con las propiedades margin-top, margin-right, margin-bottom y margin-left.
+Controla la separación entre elementos adyacentes.

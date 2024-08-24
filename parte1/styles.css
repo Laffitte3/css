@@ -1,0 +1,18 @@
+
+/* Aplica estilos a una etiqueta global */
+h3{
+
+    color: coral;
+}
+
+/* Aplica estilos a una clase */
+
+.color{
+
+    color: blueviolet;
+}
+/* Aplica estilos a un identiicador */
+#color{
+
+    color: darkgoldenrod;
+}
